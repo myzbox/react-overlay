@@ -1,0 +1,70 @@
+.wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.trigger {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.popover {
+    position: absolute;
+    background-color: white;
+    color: #374151;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    z-index: 900;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    min-width: 200px;
+    animation: fadeIn 0.15s ease-out;
+}
+
+.popover.draggable {
+    cursor: move;
+    user-select: none;
+}
+
+/* Positions */
+.popover.bottom {
+    top: calc(100% + 0.5rem);
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: top center;
+}
+
+.popover.top {
+    bottom: calc(100% + 0.5rem);
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: bottom center;
+}
+
+.popover.left {
+    right: calc(100% + 0.5rem);
+    top: 50%;
+    transform: translateY(-50%);
+    transform-origin: center right;
+}
+
+.popover.right {
+    left: calc(100% + 0.5rem);
+    top: 50%;
+    transform: translateY(-50%);
+    transform-origin: center left;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+        margin-top: -5px;
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+        margin-top: 0;
+    }
+}

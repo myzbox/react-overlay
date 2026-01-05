@@ -1,0 +1,50 @@
+.wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #111827;
+    color: white;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    z-index: 1000;
+    white-space: nowrap;
+    pointer-events: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    opacity: 0;
+    animation: fadeIn 0.2s forwards;
+}
+
+/* Positions */
+.tooltip.top {
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-0.5rem);
+}
+
+.tooltip.bottom {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(0.5rem);
+}
+
+.tooltip.left {
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-0.5rem);
+}
+
+.tooltip.right {
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%) translateX(0.5rem);
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}

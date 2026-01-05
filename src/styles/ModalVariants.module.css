@@ -1,0 +1,124 @@
+:root {
+    --rm-success-bg: #d1fae5;
+    --rm-success-color: #065f46;
+    --rm-error-bg: #fee2e2;
+    --rm-error-color: #991b1b;
+    --rm-warning-bg: #fef3c7;
+    --rm-warning-color: #92400e;
+    --rm-info-bg: #dbeafe;
+    --rm-info-color: #1e40af;
+
+    --rm-btn-primary-bg: #2563eb;
+    --rm-btn-primary-hover: #1d4ed8;
+    --rm-btn-primary-text: #ffffff;
+
+    --rm-btn-default-bg: #ffffff;
+    --rm-btn-default-border: #d1d5db;
+    --rm-btn-default-text: #374151;
+    --rm-btn-default-hover: #f3f4f6;
+
+    --rm-btn-destructive-bg: #dc2626;
+    --rm-btn-destructive-hover: #b91c1c;
+}
+
+.drawer {
+    border-radius: 0;
+    max-height: none;
+}
+
+.drawer.left,
+.drawer.right {
+    height: 100vh;
+    border-radius: 0;
+}
+
+.drawer.top,
+.drawer.bottom {
+    width: 100vw;
+    border-radius: 0;
+}
+
+.alertContent {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.success .icon {
+    background: var(--rm-success-bg);
+    color: var(--rm-success-color);
+}
+
+.error .icon {
+    background: var(--rm-error-bg);
+    color: var(--rm-error-color);
+}
+
+.warning .icon {
+    background: var(--rm-warning-bg);
+    color: var(--rm-warning-color);
+}
+
+.info .icon {
+    background: var(--rm-info-bg);
+    color: var(--rm-info-color);
+}
+
+.okButton,
+.confirmButton {
+    background: var(--rm-btn-primary-bg);
+    color: var(--rm-btn-primary-text);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.okButton:hover,
+.confirmButton:hover {
+    background: var(--rm-btn-primary-hover);
+}
+
+.okButton:disabled,
+.confirmButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.cancelButton {
+    background: var(--rm-btn-default-bg);
+    border: 1px solid var(--rm-btn-default-border);
+    color: var(--rm-btn-default-text);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cancelButton:hover {
+    background: var(--rm-btn-default-hover);
+}
+
+.cancelButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.destructive {
+    background: var(--rm-btn-destructive-bg);
+}
+
+.destructive:hover {
+    background: var(--rm-btn-destructive-hover);
+}

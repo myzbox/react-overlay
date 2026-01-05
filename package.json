@@ -1,0 +1,85 @@
+{
+  "name": "@myzbox/react-overlay",
+  "version": "0.0.1",
+  "description": "A comprehensive React overlay library with modals, drawers, tooltips, popovers, and toast notifications",
+  "keywords": [
+    "react",
+    "modal",
+    "dialog",
+    "overlay",
+    "drawer",
+    "tooltip",
+    "popover",
+    "toast",
+    "notification",
+    "alert",
+    "confirm",
+    "draggable",
+    "accessible",
+    "typescript",
+    "react-component",
+    "ui",
+    "myzbox"
+  ],
+  "author": "myzbox",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myzbox/react-overlay"
+  },
+  "bugs": {
+    "url": "https://github.com/myzbox/react-overlay/issues"
+  },
+  "homepage": "https://github.com/myzbox/react-overlay#readme",
+  "type": "module",
+  "main": "./dist/react-overlay.umd.js",
+  "module": "./dist/react-overlay.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/react-overlay.es.js",
+      "require": "./dist/react-overlay.umd.js"
+    },
+    "./dist/react-overlay.css": "./dist/react-overlay.css",
+    "./dist/style.css": "./dist/react-overlay.css",
+    "./types/*": "./src/types/*",
+    "./styles/*": "./src/styles/*",
+    "./hooks/*": "./src/hooks/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.18.1",
+    "vite": "^6.0.5",
+    "vite-plugin-dts": "^4.4.0"
+  }
+}
