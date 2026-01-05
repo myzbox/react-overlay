@@ -1,43 +1,77 @@
-# Contributing to React Modal Plugin
+# Contributing to @myzbox/react-overlay
 
-We welcome contributions! Please follow these guidelines to help keep the project consistent.
+Thank you for taking the time to contribute! 🎉  
+All contributions are welcome — bug reports, suggestions, and improvements.
 
-## Getting Started
+---
+
+## 📋 Requirements
+
+- Node.js 18+
+- React 18+
+- Basic knowledge of TypeScript and React hooks
+
+---
+
+## 🛠 Development Setup
 
 1. Fork the repository
-2. Clone your fork:
+2. Clone your fork locally
    ```bash
    git clone https://github.com/myzbox/react-overlay.git
    cd react-overlay
-   ```
-3. Install dependencies:
-   ```bash
    npm install
+   npm run build
+   ```
+3. **Start development server**:
+   ```bash
+   npm run dev
    ```
 
-4.  **Start development server**:
-    ```bash
-    npm run dev
-    ```
+## 🧠 Project Guidelines
 
-## Project Structure
+Please follow these principles when contributing:
 
--   `src/components`: UI components (Modal, Drawer, Tooltip).
--   `src/hooks`: Custom React hooks (`useModal`, `useDraggable`).
--   `src/styles`: Shared styles (if any).
+- **Hooks must remain pure**: Do not access `ref.current` during render.
+- **Avoid unnecessary state**: Prefer derived values over stored state.
+- **Styling**: Use **Vanilla CSS Modules** (`*.module.css`). Avoid SASS/SCSS.
+- **API Consistency**: Keep the API backward-compatible for v0.x / v1.x.
+- **Accessibility**: Ensure all components maintain WAI-ARIA compliance (aria-labels, focus management).
+- **TypeScript**: Use strict typing. Avoid `any` whenever possible.
 
-## Development Guidelines
+## 🐞 Reporting Bugs
 
--   **TypeScript**: Use strict typing. Avoid `any` whenever possible.
--   **Styling**: Use CSS Modules (`*.module.css`). Use CSS Variables for colors.
--   **Linting**: Ensure code passes linting rules.
-    ```bash
-    npm run lint
-    ```
+When reporting bugs, please include:
+- Steps to reproduce
+- Expected behavior
+- Actual behavior
+- React version
+- Browser/environment details
 
-## Pull Requests
+## 🚀 Submitting a Pull Request
 
-1.  Create a feature branch: `git checkout -b feature/my-new-feature`
-2.  Commit your changes: `git commit -m 'Add new feature'`
-3.  Push to the branch: `git push origin feature/my-new-feature`
-4.  Open a Pull Request.
+1. Create a feature branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+2. Make your changes.
+3. Ensure the project builds successfully:
+   ```bash
+   npm run lint
+   npm run build
+   ```
+4. Update documentation if needed.
+5. Commit with a clear message.
+6. Open a pull request.
+
+## 🧪 Code Style
+
+- Follow existing formatting and conventions.
+- Keep changes focused and minimal.
+- No breaking changes without prior discussion.
+
+## 📄 License
+
+By contributing, you agree that your contributions will be licensed under the MIT License.
+
+Thank you for helping improve this project! 🙌

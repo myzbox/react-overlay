@@ -37,6 +37,7 @@ npm install react react-dom
 
 ## Basic Usage
 
+```tsx
 // Complete bundle (Recommended)
 import '@myzbox/react-overlay/dist/react-overlay.css';
 
@@ -423,7 +424,34 @@ Define these variables in your CSS (e.g., `:root`) to override default colors:
 - [Roadmap](./ROADMAP.md)
 - [Contributing](./CONTRIBUTING.md)
 
-## License
+## 🤝 Contributing
 
-MIT
-# react-overlay
+Contributions are welcome!
+
+Please read CONTRIBUTING.md before submitting a pull request.
+
+## 👤 Maintainer
+
+**Maintainer:** Mahantesh Teli  
+**Email:** myzbox1@gmail.com  
+**Organization:** myZbox
+
+
+For questions, bug reports, or feature requests, please open an issue.
+Direct emails are recommended only for security or private concerns.
+
+## 📄 License
+
+MIT © 2025 myzbox
+
+## ⭐ Support
+
+If this library helps you:
+
+Star the repository ⭐
+
+Share feedback
+
+Open issues for bugs or feature requests
+
+---
