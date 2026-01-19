@@ -1,6 +1,6 @@
 {
   "name": "@myzbox/react-overlay",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A comprehensive React overlay library with modals, drawers, tooltips, popovers, and toast notifications",
   "keywords": [
     "react",

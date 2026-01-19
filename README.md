@@ -433,7 +433,7 @@ Please read CONTRIBUTING.md before submitting a pull request.
 ## 👤 Maintainer
 
 **Maintainer:** Mahantesh Teli  
-**Email:** myzbox1@gmail.com  
+**Email:** <myzbox1@gmail.com>
 **Organization:** myZbox
 
 
@@ -442,7 +442,7 @@ Direct emails are recommended only for security or private concerns.
 
 ## 📄 License
 
-MIT © 2025 myzbox
+MIT © 2026 myzbox
 
 ## ⭐ Support
 
