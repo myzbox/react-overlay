@@ -433,7 +433,7 @@ Please read CONTRIBUTING.md before submitting a pull request.
 ## 👤 Maintainer
 
 **Maintainer:** Mahantesh Teli  
-**Email:** <myzbox1@gmail.com>
+**Email:** <myzbox1@gmail.com>  
 **Organization:** myZbox
 
 
