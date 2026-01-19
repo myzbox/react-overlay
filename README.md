@@ -1,9 +1,9 @@
 # @myzbox/react-overlay
 
-[![npm version](https://img.shields.io/npm/v/@myzbox/react-overlay.svg)](https://www.npmjs.com/package/@myzbox/react-overlay)
-[![npm downloads](https://img.shields.io/npm/dm/@myzbox/react-overlay.svg)](https://www.npmjs.com/package/@myzbox/react-overlay)
-[![bundle size](https://img.shields.io/bundlephobia/minzip/@myzbox/react-overlay)](https://bundlephobia.com/package/@myzbox/react-overlay)
-[![license](https://img.shields.io/npm/l/@myzbox/react-overlay.svg)](https://github.com/myzbox/react-overlay/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/@myzbox%2Freact-overlay.svg)](https://www.npmjs.com/package/@myzbox/react-overlay)
+[![npm downloads](https://img.shields.io/npm/dm/@myzbox%2Freact-overlay.svg)](https://www.npmjs.com/package/@myzbox/react-overlay)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@myzbox%2Freact-overlay)](https://bundlephobia.com/package/@myzbox/react-overlay)
+[![license](https://img.shields.io/npm/l/@myzbox%2Freact-overlay.svg)](https://github.com/myzbox/react-overlay/blob/main/LICENSE)
 
 A highly configurable, accessible, and senior-grade React overlay library. Built with TypeScript, Accessibility, and Performance in mind.
 
