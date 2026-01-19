@@ -181,3 +181,6 @@ export const Modal: React.FC<ModalProps> = ({
 
     return createPortal(portalContent, document.body);
 };
+
+export default Modal;
+

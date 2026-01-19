@@ -66,3 +66,6 @@ export const ToastProvider: React.FC<{ children: ReactNode }> = ({ children }) =
         </ToastContext.Provider>
     );
 };
+
+export default ToastProvider;
+

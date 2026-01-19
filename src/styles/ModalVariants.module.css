@@ -38,6 +38,12 @@
     border-radius: 0;
 }
 
+.alertModal {
+    box-sizing: border-box;
+    display: block;
+}
+
+
 .alertContent {
     display: flex;
     align-items: center;
@@ -77,6 +83,7 @@
 
 .okButton,
 .confirmButton {
+    box-sizing: border-box;
     background: var(--rm-btn-primary-bg);
     color: var(--rm-btn-primary-text);
     border: none;
@@ -98,6 +105,7 @@
 }
 
 .cancelButton {
+    box-sizing: border-box;
     background: var(--rm-btn-default-bg);
     border: 1px solid var(--rm-btn-default-border);
     color: var(--rm-btn-default-text);
